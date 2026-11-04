@@ -456,3 +456,234 @@
 .mentor-grid .mentor-card:nth-child(1) .profile-photo {
   object-position: center 0%;
 }
+
+/* =========================================
+   FINAL FIX - CO-FOUNDERS ALIGNMENT
+   ========================================= */
+
+/* Align all three Co-Founder cards */
+.cofounder-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: start;
+  justify-items: center;
+  gap: 28px;
+}
+
+/* Keep all three cards consistent */
+.cofounder-grid .mentor-card {
+  width: 100%;
+  max-width: 320px;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Give ALL three Co-Founder photos equal dimensions */
+.cofounder-grid .mentor-card .profile-photo {
+  width: 190px;
+  height: 240px;
+  min-width: 0;
+  object-fit: cover;
+  object-position: center 50%;
+  display: block;
+  margin: 20px auto 0;
+  border-radius: 18px;
+}
+
+/* Align names and information */
+.cofounder-grid .mentor-card .m-text {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+  .cofounder-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .cofounder-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* =========================================
+   FINAL FIX - CO-FOUNDERS ALIGNMENT
+   ========================================= */
+
+/* Align all three Co-Founder cards */
+.cofounder-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: start;
+  justify-items: center;
+  gap: 28px;
+}
+
+/* Keep all three cards consistent */
+.cofounder-grid .mentor-card {
+  width: 100%;
+  max-width: 320px;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Give ALL three Co-Founder photos equal dimensions */
+.cofounder-grid .mentor-card .profile-photo {
+  width: 190px;
+  height: 240px;
+  min-width: 0;
+  object-fit: cover;
+  object-position: center 50%;
+  display: block;
+  margin: 20px auto 0;
+  border-radius: 18px;
+}
+
+/* Align names and information */
+.cofounder-grid .mentor-card .m-text {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+  .cofounder-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .cofounder-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* =========================================
+   FINAL FIX - CO-FOUNDERS ALIGNMENT
+   ========================================= */
+
+/* Align all three Co-Founder cards */
+.cofounder-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: start;
+  justify-items: center;
+  gap: 28px;
+}
+
+/* Keep all three cards consistent */
+.cofounder-grid .mentor-card {
+  width: 100%;
+  max-width: 320px;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Give ALL three Co-Founder photos equal dimensions */
+.cofounder-grid .mentor-card .profile-photo {
+  width: 190px;
+  height: 240px;
+  min-width: 0;
+  object-fit: cover;
+  object-position: center 50%;
+  display: block;
+  margin: 20px auto 0;
+  border-radius: 18px;
+}
+
+/* Align names and information */
+.cofounder-grid .mentor-card .m-text {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+  .cofounder-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .cofounder-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* =========================================
+   FINAL OVERRIDE - MENTOR PHOTO ALIGNMENT
+   ========================================= */
+
+/* Equal mentor card alignment */
+.mentor-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: stretch;
+  gap: 28px;
+}
+
+.mentor-grid .mentor-card {
+  width: 100%;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* FORCE ALL THREE PHOTOS TO SAME SIZE */
+.mentor-grid .mentor-card .profile-photo {
+  width: 190px !important;
+  max-width: 190px !important;
+  min-width: 190px !important;
+  height: 240px !important;
+  min-height: 240px !important;
+  max-height: 240px !important;
+  object-fit: cover !important;
+  display: block;
+  flex-shrink: 0;
+  margin: 20px auto 0;
+  border-radius: 18px;
+}
+
+/* Equal text alignment */
+.mentor-grid .mentor-card .m-text {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+  .mentor-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .mentor-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
