@@ -441,7 +441,7 @@ body {
 
 .mentor-img-container {
   width: 100%;
-  aspect-ratio: 1/1.1;
+  
   border-radius: 24px;
   overflow: hidden;
   position: relative;
@@ -1350,3 +1350,7 @@ body {
 }
 
 /* ... [Keep existing styles for Projects, Mentors, CTA] ... */
+/* Homepage - Slightly reduce Faculty Guidance photo height */
+.mentors-preview .mentor-img-container {
+  aspect-ratio: 1 / 0.8;
+}

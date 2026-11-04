@@ -8,22 +8,27 @@ import mentor2 from '../assets/mentors/mentor2.jpeg';
 import mentor3 from '../assets/mentors/mentor3.jpeg';
 
 // Student Imports
+// Student Imports
+// Student Imports
 import safwanImg from '../assets/students/safwan.png';
-import shreeyaImg from '../assets/students/shreeya.png';
-import poojaImg from '../assets/students/pooja.png';
-import muktaImg from '../assets/students/mukta.png';
+import akashImg from '../assets/students/Akash.jpeg';
+import poojaImg from '../assets/students/pooja.jpeg';
+import aniruddhImg from '../assets/students/Aniruddh.jpeg';
 import abhishekImg from '../assets/students/abhishek.png';
-import gangothriImg from '../assets/students/gangothri.png';
+import ananyaImg from '../assets/students/Ananya.jpeg';
 import mohithImg from '../assets/students/mohith.png';
-import bhavanaImg from '../assets/students/bhavana.png';
+import prachiImg from '../assets/students/Prachi.jpeg';
+import manvithImg from '../assets/students/Manvith.jpeg';
 import ashwinImg from '../assets/students/ashwin.png';
-import likhithaImg from '../assets/students/likhitha.png';
-import abhijnyaImg from '../assets/students/abhijnyaImg.jpeg';
-import inchanaImg from '../assets/students/inchanaImg.jpeg';
-import adarshImg from '../assets/students/adarshImg.jpeg';
-import varshanImg from '../assets/students/varshanImg.jpeg';
+import dishaImg from '../assets/students/Dish.jpeg';
+import shailendraImg from '../assets/students/Shailendra.jpeg';
+import chandanaImg from '../assets/workshops/chandana.jpeg';
+import adarshImg from '../assets/students/Adarsh.jpeg';
+import varunImg from '../assets/students/Varun.png';
 import sharathImg from '../assets/students/sharathImg.jpeg';
-import varunImg from '../assets/students/varunImg.jpeg';
+import rakshithaImg from '../assets/students/Rakshitha.jpeg';
+import shravanImg from '../assets/students/Shravan.jpeg';
+import chethanImg from '../assets/students/Chethan.jpeg';
 
 // --- HELPER COMPONENT: LetterStagger Animation ---
 const LetterStagger = ({ text }) => {
@@ -123,108 +128,109 @@ const Team = () => {
       image: mentor1
     }
   ];
-
-  const executive = [
-    {
-      name: "Mahammad Safwan T",
-      role: "President",
-      focus: "Strategic Planning",
-      image: safwanImg
-    },
-    {
-      name: "Abhijna",
-      role: "Secretary",
-      focus: "Official Communication & Documentation",
-      image: abhijnyaImg
-    },
-    {
-      name: "Inchana",
-      role: "Treasurer",
-      focus: "Financial Management",
-      image: inchanaImg
-    },
-    {
-      name: "Shreeya S Shetty",
-      role: "Joint Secretary",
-      focus: "Administrative Coordination",
-      image: shreeyaImg
-    },
-    {
-      name: "Pooja",
-      role: "Joint Secretary",
-      focus: "Club Operations",
-      image: poojaImg
-    }
-  ];
-
-  const techLeads = [
-    {
-      name: "Mukta",
-      role: "Software Lead",
-      dept: "AI & ML ",
-      image: muktaImg
-    },
-    {
-      name: "Gangothri",
-      role: "Software Co-Lead",
-      dept: "Embedded Systems",
-      image: gangothriImg
-    },
+const executive = [
     {
       name: "Adarsh",
-      role: "Mechanical Lead",
-      dept: "Mechanical Systems",
+      role: "President",
+      focus: "Strategic Planning",
       image: adarshImg
     },
     {
-      name: "Varshan",
-      role: "Mechanical Co-Lead",
-      dept: "Mechanical Systems",
-      image: varshanImg
-    },
-    {
       name: "Abhishek",
-      role: "Electronics Lead",
-      dept: "Hardware Design",
+      role: "Secretary",
+      focus: "Official Communication & Documentation",
       image: abhishekImg
     },
     {
-      name: "Sharath",
+      name: "Aniruddh",
+      role: "Treasurer",
+      focus: "Financial Management",
+      image: aniruddhImg
+    },
+    {
+      name: "Shailendra",
+      role: "Joint Secretary",
+      focus: "Administrative Coordination",
+      image: shailendraImg
+    },
+  ];
+
+  const techLeads = [
+    
+     {
+      name: "Chethan",
+      role: "Hardware Lead",
+      
+      image: chethanImg
+    },
+    {
+      name: "Shravan",
       role: "Hardware Co-Lead",
-      dept: "Hardware Design",
+      
+      image: shravanImg
+    },
+    {
+      name: "Akash",
+      role: "Software Lead",
+      
+      image: akashImg
+    },
+    {
+      name: "Chandana A",
+      role: "Software Co-Lead",
+      
+      image: chandanaImg
+    },
+    {
+      name: "Disha",
+      role: "OutReach Coordinator",
+      
+      image: dishaImg
+    },
+    {
+      name: "Ananya Udupi",
+      role: "OutReach Coordinator",
+      
+      image: ananyaImg
+    },
+    {
+      name: "Sharath",
+      role: "Documentation Lead",
+      
       image: sharathImg
     },
     {
-      name: "Mohith K U",
-      role: "Documentation Lead",
-      dept: "Technical Records",
-      image: mohithImg
+      name: "Manvith",
+      role: "Documentation Co-Lead",
+      
+      image: manvithImg
     },
     {
-      name: "Bhavana",
-      role: "Documentation Co-Lead",
-      dept: "Content Design",
-      image: bhavanaImg
+      name: "Prachi",
+      role: "Media Lead",
+      image: prachiImg
+    },
+    {
+      name: "Rakshitha",
+      role: "Media Co-Lead",
+      
+      image: rakshithaImg
+    },
+    {
+      name: "Pooja",
+      role: "Workshop Coordinator",
+      image: poojaImg
     },
     {
       name: "Varun",
-      role: "Media Co-Lead",
-      dept: "Media & Outreach",
-      image: varunImg
-    },
-    {
-      name: "Ashwin Bhat",
-      role: "Workshop Coordinator",
-      dept: "Hands-on Sessions",
-      image: ashwinImg
-    },
-    {
-      name: "Likhitha S",
       role: "Event Coordinator",
-      dept: "Logistics",
-      image: likhithaImg
+      
+      image: varunImg
     }
   ];
+  
+      
+  
 
   // Animation Variants
   const containerVariants = {
@@ -366,4 +372,4 @@ const Team = () => {
   );
 };
 
-export default Team;
+export default Team; 
