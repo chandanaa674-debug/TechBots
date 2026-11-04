@@ -85,22 +85,20 @@ const Team = () => {
     {
       name: "Ashwin Bhat",
       role: "Co-Founder",
-      title: "Workshop Coordinator",
-      info: "Hands-on Sessions",
+     
+     
       image: ashwinImg
     },
     {
       name: "Mahammad Safwan T",
       role: "Co-Founder",
-      title: "President",
-      info: "Strategic Planning",
+      
       image: safwanImg
     },
     {
       name: "Mohith K U",
       role: "Co-Founder",
-      title: "Documentation Lead",
-      info: "Technical Records",
+     
       image: mohithImg
     }
   ];
@@ -114,7 +112,7 @@ const Team = () => {
       image: mentor3
     },
     {
-      name: "Prof.Shailesh S Shetty",
+      name: "Dr.Shailesh S Shetty",
       role: "Faculty Mentor",
       title: "HOD, Dept. of CS & Business System, SIT",
       info: "M.Tech in Computer Engineering; expert in ML, AI, and Blockchain.",
@@ -132,25 +130,25 @@ const executive = [
     {
       name: "Adarsh",
       role: "President",
-      focus: "Strategic Planning",
+      
       image: adarshImg
     },
     {
       name: "Abhishek",
       role: "Secretary",
-      focus: "Official Communication & Documentation",
+     
       image: abhishekImg
     },
     {
       name: "Aniruddh",
       role: "Treasurer",
-      focus: "Financial Management",
+      
       image: aniruddhImg
     },
     {
       name: "Shailendra",
       role: "Joint Secretary",
-      focus: "Administrative Coordination",
+      
       image: shailendraImg
     },
   ];
